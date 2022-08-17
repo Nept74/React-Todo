@@ -1,0 +1,19 @@
+.todo{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border: black 2px solid;
+}
+.button_container{
+    margin-left: auto;
+}
+.title{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 25px;
+    min-height: 22px;
+    width: 200px;
+    border-right: black 2px solid;
+    resize: horizontal;
+}
